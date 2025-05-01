@@ -184,8 +184,8 @@ All necessary packages are listed in `requirements.txt`. If you wish to use cond
 
 ## Future Improvements
 - **Distributed Computing with Dask:**
-  - While Dask is currently used mainly for data loading and preprocessing, it could be leveraged for distributed grid search, hyperparameter optimization, and other parallel computing tasks (such as parallelized prediction pipelines).
-  - A complete Dask pipeline was tested, but for this project, the dataset size did not require large-scale distributed computation. For larger datasets or more computationally intensive model searches, integrating Dask more deeply could significantly improve computation speed and scalability.
+  - While dask is currently used mainly for data loading and preprocessing, it could be leveraged for distributed grid search, hyperparameter optimization, and other parallel computing tasks (such as parallelized prediction pipelines).
+  - A complete dask pipeline was tested, but for this project, the dataset size did not require large-scale distributed computation. For larger datasets or more computationally intensive model searches, integrating Dask more deeply could significantly improve computation speed and scalability.
 
 ## Author
 Tim Conze
