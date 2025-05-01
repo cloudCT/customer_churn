@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Data files (CSV only, adjust if you use other formats)
+data/*.csv
+
+# Environment files
+.env
+py_env.yml
+
+# Kaggle API
+kaggle.json
+
+# System files
+.DS_Store
+*.swp
+
+# Dask client test
+dask_client_test.py
